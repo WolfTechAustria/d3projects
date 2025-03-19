@@ -1,6 +1,6 @@
 <?php
 session_start();
-$servername = 'wsrv-1.wolftech.at';
+$servername = 'localhost';
 $username = 'DBAdmin';
 $password = '3v0E@bd71!!';
 $dbname = 'd3_projects';
