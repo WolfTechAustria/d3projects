@@ -1,0 +1,38 @@
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.tabs input[type="radio"]{
+    display: none;
+}
+
+.tabnavItem{
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+    border-style: solid;
+    border: #000000;
+}
+
+.tabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    order: 1;
+    display: none;
+    
+}
+
+.tabs .tab h2{
+    font-size: 2em;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
+    background: #ffffff;
+}
